@@ -22,7 +22,7 @@ public final class HelpGui extends JavaPlugin implements Listener {
     @EventHandler
     public void onInventoryClick(InventoryClickEvent e) {
 
-        if (!e.getView().getTitle().equals(ChatColor.translateAlternateColorCodes('&', ChatColor.GREEN + "Starter Tools"))) return;
+        if (!e.getView().getTitle().equals(ChatColor.translateAlternateColorCodes('&', ChatColor.GREEN + "Help"))) return;
         e.setCancelled(true);
 
         if (e.getSlot() == 20) {
