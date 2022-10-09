@@ -1,0 +1,9 @@
+name: HelpGui
+version: '1.19.2'
+main: com.max.helpgui.HelpGui
+api-version: 1.19
+authors: [ maxcreeper360 ]
+description: HelpGui
+commands:
+  help:
+    description: help
