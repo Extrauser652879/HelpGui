@@ -34,7 +34,7 @@ public class HelpCommand implements CommandExecutor {
             return false;
         }
 
-        Inventory inv = Bukkit.createInventory(player, 45, ChatColor.GREEN + "Starter Tools");
+        Inventory inv = Bukkit.createInventory(player, 45, ChatColor.GREEN + "Help");
         ItemFactory itemFactory = Bukkit.getItemFactory();
 
         for (int i = 0; i < 10; i++) { frames.add(i); }
